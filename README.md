@@ -44,7 +44,7 @@ Node가 있다면 `npm start`도 가능합니다. npm 패키지 설치는 필요
 1. [GitHub 가입](https://github.com/signup)에서 이메일 또는 Google/Apple 계정으로 가입합니다. 사용자 이름을 정하고, 표시되는 이메일 인증을 완료합니다.
 2. 기존 공개 저장소를 내려받으려면 `git clone https://github.com/skarjqn/duford-floka.git`을 실행합니다. GitHub Desktop에서는 `File → Clone repository → URL`에 같은 주소를 입력합니다.
 3. 계정의 `duford-floka` 공개 저장소로 이 프로젝트의 `main` 브랜치를 업로드합니다. 저장소 루트에는 `capture/`, `scripts/`, `capture-manifest.json`, `.github/workflows/pages.yml`이 들어갑니다. ZIP 파일 자체를 올리는 방식이 아닙니다.
-4. 소스 업로드와 웹사이트 공개는 별도 단계입니다. 기본 상태에서는 업로드만으로 GitHub Pages가 배포되지 않습니다.
+4. 소스 업로드를 완료했습니다. 아래 GitHub Pages 설정을 마치면 수동 배포와 이후 `main` 변경 시 자동 배포를 사용할 수 있습니다.
 
 공식 안내: [계정 만들기](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github), [GitHub Free 안내](https://docs.github.com/en/get-started/learning-about-github/githubs-plans).
 
@@ -67,10 +67,10 @@ Node가 있다면 `npm start`도 가능합니다. npm 패키지 설치는 필요
 
 GitHub Free의 Pages는 공개 저장소에서 사용할 수 있습니다. 공개 저장소 업로드를 완료한 다음 아래 단계로 웹사이트를 별도 배포할 수 있습니다. 기존 미리보기는 https://duford-kindergarten.namgb77.chatgpt.site 에서 확인할 수 있습니다.
 
-1. 계정과 저장소가 Pages 사용 조건에 맞는지 확인합니다.
-2. 저장소 `Settings → Pages → Build and deployment → Source`를 `GitHub Actions`로 설정합니다.
-3. `Settings → Secrets and variables → Actions → Variables`에 `ENABLE_GITHUB_PAGES`를 만들고 값을 `true`로 설정합니다.
-4. `Actions → Publish original Floka frontend → Run workflow`를 실행합니다. 이후 `main` 브랜치 변경 시에도 자동 배포됩니다.
+1. [Pages 설정](https://github.com/skarjqn/duford-floka/settings/pages)을 열고 `Build and deployment → Source`를 `GitHub Actions`로 설정합니다.
+2. [배포 워크플로](https://github.com/skarjqn/duford-floka/actions/workflows/pages.yml)를 열고 `Run workflow`에서 `main`을 선택한 뒤 실행합니다.
+3. 작업이 초록색 체크로 완료되면 배포 결과에 표시되는 사이트 주소를 엽니다. 기본 도메인에서의 예상 주소는 https://skarjqn.github.io/duford-floka/ 입니다. 첫 배포 전에는 이 주소가 열리지 않을 수 있습니다.
+4. 이후 `main` 브랜치에 변경을 올리면 자동으로 다시 배포됩니다. 별도의 `ENABLE_GITHUB_PAGES` 변수는 필요하지 않습니다.
 
 워크플로는 GitHub가 제공하는 저장소 경로를 읽어 링크·CSS·영상 경로에 반영합니다. `사용자.github.io/저장소이름/` 형태에서도 서브페이지 링크가 연결됩니다. 사용자 지정 도메인을 쓰는 경우도 Pages의 base path를 따릅니다.
 
