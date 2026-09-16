@@ -12,9 +12,6 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
-    # Source upload alone must not publish the website. Enable deliberately
-    # after configuring Pages and confirming the repository's plan supports it.
-    if: ${{ vars.ENABLE_GITHUB_PAGES == 'true' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
