@@ -1,0 +1,18 @@
+{
+  "base": "/",
+  "page_urls": 254,
+  "page_files": 253,
+  "asset_files": 1229,
+  "unresolved_fetches": {
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/BrittanySignature/BrittanySignature.ttf": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Light.woff.woff": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Medium.woff2": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Light.woff.woff2": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Medium.woff": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Regular.woff": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Regular.woff2": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/uploads/2025/01/displacement-4.webp": "HTTP 404"
+  },
+  "visual_css_overrides": 0,
+  "text_replacements": 0
+}

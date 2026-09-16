@@ -1,0 +1,8 @@
+site/
+file-preview/
+file-preview-build-report.json
+github-preview/
+licensed-package/
+*.zip
+__pycache__/
+.DS_Store

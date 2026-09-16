@@ -1,0 +1,72 @@
+{
+  "page_count": 254,
+  "visible_text_identical": 254,
+  "body_dom_classes_and_inline_styles_identical": 254,
+  "text_or_structure_errors": [],
+  "missing_html_references": {},
+  "external_script_or_image_references": [
+    "https://maps.google.com/maps?q=New%20York&t=m&z=9&output=embed&iwloc=near"
+  ],
+  "javascript_syntax_errors": [],
+  "source_fetch_failures": {
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/BrittanySignature/BrittanySignature.ttf": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Light.woff.woff": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Medium.woff2": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Light.woff.woff2": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Medium.woff": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Regular.woff": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/themes/floka/assets/fonts/rowan-variable/Rowan-Regular.woff2": "HTTP 404",
+    "https://floka.casethemes.net/wp-content/uploads/2025/01/displacement-4.webp": "HTTP 404"
+  },
+  "largest_files": [
+    {
+      "path": "wp-content/uploads/2025/06/home-5-video.mp4",
+      "bytes": 9042266
+    },
+    {
+      "path": "wp-content/uploads/2025/06/home-1-video.mp4",
+      "bytes": 3497878
+    },
+    {
+      "path": "wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg",
+      "bytes": 918991
+    },
+    {
+      "path": "wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg",
+      "bytes": 749223
+    },
+    {
+      "path": "wp-content/themes/floka/assets/css/pxl-style.min.css",
+      "bytes": 612331
+    },
+    {
+      "path": "wp-content/themes/floka/assets/js/libs/threejs.min.js",
+      "bytes": 610618
+    },
+    {
+      "path": "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/webfonts/fa-duotone-900.eot",
+      "bytes": 562970
+    },
+    {
+      "path": "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/webfonts/fa-duotone-900.ttf",
+      "bytes": 562672
+    },
+    {
+      "path": "home-3-onepage/index.html",
+      "bytes": 507186
+    },
+    {
+      "path": "home-3/index.html",
+      "bytes": 506738
+    }
+  ],
+  "javascript_files_checked": 152,
+  "original_json_icon_catalogs": [
+    "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/regular.js",
+    "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/brands.js",
+    "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/solid.js",
+    "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/duotone.js",
+    "wp-content/plugins/case-addons/assets/libs/font-awesome-pro/light.js",
+    "wp-content/themes/floka/assets/fonts/flaticon/flaticon-08.js"
+  ]
+}
